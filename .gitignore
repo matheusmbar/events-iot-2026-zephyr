@@ -1,0 +1,9 @@
+.west/
+.venv/
+external
+build*/
+twister-out*/
+.cache/
+
+.vscode/compile_commands.json
+.vscode/extensions.json

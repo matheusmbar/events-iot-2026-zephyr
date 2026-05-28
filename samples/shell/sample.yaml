@@ -1,0 +1,16 @@
+sample:
+  name: Shell sample
+tests:
+  events-iot-2026.sample.shell:
+    build_only: true
+    tags:
+      - LED
+      - gpio
+      - SPI
+      - I2C
+    integration_platforms:
+      - native_sim/native
+      - frdm_mcxa156
+      - frdm_k82f
+      - stm32f4_disco
+      - nucleo_f303re
