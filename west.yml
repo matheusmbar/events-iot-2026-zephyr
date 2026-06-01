@@ -20,4 +20,4 @@ manifest:
           - net-tools
 
   self:
-    path: .
+    path: manifest
