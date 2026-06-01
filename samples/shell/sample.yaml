@@ -13,4 +13,5 @@ tests:
       - frdm_mcxa156
       - frdm_k82f
       - stm32f4_disco
-      - nucleo_f303re
+      - nucleo_f302r8
+      - iot_2026_mcxa156
