@@ -1,0 +1,6 @@
+board:
+  name: iot_2026_mcxa156
+  full_name: IoT 2026 - FRDM-MCXA156
+  vendor: nxp
+  socs:
+  - name: mcxa156
