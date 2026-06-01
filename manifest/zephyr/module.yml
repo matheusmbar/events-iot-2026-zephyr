@@ -1,0 +1,4 @@
+name: events_iot_2026
+build:
+  settings:
+    board_root: .
