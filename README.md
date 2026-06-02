@@ -4,6 +4,8 @@
 
 Este repositório disponibiliza um projeto exemplo utilizando o Zephyr RTOS.
 
+Os slides apresentados no evento estão disponibilizados: [slides-seminario-iot-2026](./doc/slides-seminario-iot-2026.pdf)
+
 Contém um manifest `west.yml` que importa parte dos projetos incluídos no Zephyr,
 contendo suporte para targets NXP e STM32.
 
