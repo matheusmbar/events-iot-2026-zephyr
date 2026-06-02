@@ -32,10 +32,10 @@ Adicionei um argumento ao runner com o path para o executável e passou a funcio
 
 ## Setup para Linux - Terminal
 
-Clonar o projeto
+Criar uma pasta para o projeto
 
 ```bash
-git clone https://github.com/matheusmbar/events-iot-2026-zephyr
+mkdir events-iot-2026-zephyr
 ```
 
 Inicializar `virtualenv` Python
@@ -51,8 +51,14 @@ pip install west
 Inicializar workspace e clonar projetos
 
 ```bash
-west init -l manifest
+west init -m https://github.com/matheusmbar/events-iot-2026-zephyr
 west update
+```
+
+Para utilizar o manifest completo do Zephyr, substitua o primeiro comando por:
+
+```bash
+west init -m https://github.com/zephyrproject-rtos/zephyr
 ```
 
 Instalar pacotes Python e SDK ARM Zephyr
